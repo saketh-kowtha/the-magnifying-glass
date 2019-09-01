@@ -1,0 +1,51 @@
+.SideNavbar{
+    z-index: 9999;
+    // float: left;
+    position: fixed;
+    text-align: center;
+    background-color: #FFFFFF;
+    @media (min-width: 767px) {
+      border-right: 0.5px solid rgb(224, 224, 224);
+      margin-top: 75px;
+      height: 100%;
+      width: 100px;
+      .col{
+        cursor: pointer;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+ 
+      .active{
+        border-right: 3px solid #3EBcB3;
+      }
+    }
+    @media (min-width: 320px) and (max-width: 767px) {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        box-shadow: 1px #000;
+        .col{
+          cursor: pointer;
+          width: calc(100% / 3) !important;
+          float: left; 
+          height: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgb(248, 248, 248);
+          &:hover{
+            opacity: 0.8;
+          }
+        }
+      }
+}
+
+
+
+
