@@ -9,7 +9,7 @@
 /coverage
 
 # production
-# /build
+# /buildapt-get install nodejs
 
 # misc
 .DS_Store

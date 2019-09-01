@@ -33,7 +33,7 @@ class DataView extends React.Component {
         }
         render(){
 
-       
+       let JobCard = this.state.data.map(genJobCard).slice((this.state.paginationCount * 8) - 8 ,this.state.paginationCount * 8)
 
         return <div className='DataView'>
                 <div className='heading'>Your Jobs</div>
@@ -46,7 +46,9 @@ class DataView extends React.Component {
                         <Select value={this.state.time} onChange={(e)=> this.sort_('time', e)} options={["Least Time Left First", "Higest Time Left First"]} />
                 </div>
                 <div >
-                    {this.state.data.map(genJobCard).slice((this.state.paginationCount * 8) - 8 ,this.state.paginationCount * 8)}
+                    {
+                        (JobCard.length > 0) ? JobCard : <h3 align='center'>No Data Found</h3>
+                    }
 
                     <Pagination count={this.state.data.length} limit={8} counter={this.state.paginationCount} onClick={(e)=>{this.setPaginationCount(e)}}/>
                 </div>
