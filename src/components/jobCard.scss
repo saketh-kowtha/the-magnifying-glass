@@ -4,6 +4,7 @@
     margin-bottom: 30px;
     @media (min-width: 767px) {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         padding: 10px 20px;
         width: 82.5%;
@@ -19,13 +20,15 @@
     div{
         display: flex;
         align-items: center;
+        justify-content: center;
     }
     .View{
-        @media (min-width: 767px) {
+        // @media (min-width: 767px) {
             color: #3EBcB3;
             width: 100px;
             font-weight: bold;
             font-size: 12px;
+            border-radius: 8px;
             border: 2px solid #3EBcB3;
             padding: 5px 20px;
             background-color: white;
@@ -33,13 +36,16 @@
                 background-color: #3EBcB3;
                 color: white;
             }
-        }
+        // }
         
     }
 
     .title{
         order: 1;
         -webkit-order: 1;
+        @media (min-width: 767px) {
+            width: 35%;
+        }
         @media (min-width: 320px) and (max-width: 767px) {
             width:75%;
             float: left;
@@ -50,6 +56,10 @@
     .amount{
         order: 2;
         -moz-order: 2;
+        @media (min-width: 767px) {
+            width: 10%;
+            text-align: left;
+        }
         @media (min-width: 320px) and (max-width: 767px) {
             float: right;
             text-align: right;
@@ -60,6 +70,9 @@
     .time{
         order: 4;
         -webkit-order: 4;
+        @media (min-width: 767px) {
+            width: 18.01%;
+        }
         @media (min-width: 320px) and (max-width: 767px) {
             clear: both;
             float: left;
@@ -72,6 +85,9 @@
         order: 5;
         border-radius: 5px;
         -webkit-order: 5;
+        @media (min-width: 767px) {
+            width: 18.01%;
+        }
         @media (min-width: 320px) and (max-width: 767px) {
             margin-top: 5px;
             margin-right: 10px;
@@ -79,11 +95,12 @@
         }
     }
     .Revise{
-        @media (min-width: 767px) {
+        // @media (min-width: 767px) {
             color: white;
             width: 100px;
             font-size: 12px;
             font-weight: bold;
+            border-radius: 8px;
             border: 2px solid #3EBcB3;
             background-color: #3EBcB3;
             padding: 5px 20px;
@@ -93,18 +110,29 @@
                 background-color: white;
                 color: #3EBcB3;
             }
-        }
+        // }
     }
-    .badge{
+    .badgeDiv{
         @media (min-width: 767px) {
-            border-radius: 50px;
-            color: white;
-            font-weight: bold;
-            font-size: 12px;
-            height: 15px;
             padding: 5px;
             order: 3;
             -moz-order: 3;
+            width: 18.01%;
+        }
+        .badge{
+            margin-left: -10px;
+            @media (min-width: 767px) {
+                padding: 6px;
+                border-radius: 100px;
+            }
+            @media (min-width: 320px) and (max-width: 767px) {
+                border-radius: 0px 20px 20px 0px;
+                padding: 5px;
+            }
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+
         }
         @media (min-width: 320px) and (max-width: 767px) {
             width: auto !important;
