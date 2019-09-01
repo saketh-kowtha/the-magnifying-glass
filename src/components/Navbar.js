@@ -9,7 +9,7 @@ const Navbar = (props) => {
         const navItems = [
             {type: 'title', data: 'Logo'}, 
             {type: 'img', data: user, onClick: () => setActive(1)},
-            {type: 'img', data: bell, onClick: () => setActive(2)}
+            {type: 'img', data: bell, badges: 123,onClick: () => setActive(2)}
         ]
         return <div className='Navbar'>
             {

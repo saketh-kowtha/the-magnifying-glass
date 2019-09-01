@@ -50,7 +50,7 @@ class DataView extends React.Component {
                         (JobCard.length > 0) ? JobCard : <h3 align='center'>No Data Found</h3>
                     }
 
-                    <Pagination count={this.state.data.length} limit={8} counter={this.state.paginationCount} onClick={(e)=>{this.setPaginationCount(e)}}/>
+                    {(JobCard.length > 0) ? <Pagination count={this.state.data.length} limit={8} counter={this.state.paginationCount} onClick={(e)=>{this.setPaginationCount(e)}}/> : ''}
                 </div>
             </div>
 }
