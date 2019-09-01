@@ -20,7 +20,7 @@ const genJobCard = (ele) => {
             <div className="badge" style={{backgroundColor: info.color}}>{ele.status}</div>
             <div className='title'>{ele.title}<br/> {ele.subtitle}</div>
             <div className='amount'><b>₹{ele.amount}</b></div>
-            <div className="time"><img src={info.icon} />{ele.time}</div>
+            <div className="time"><img alt='' src={info.icon} />{ele.time}</div>
             <div className="btn"><button className={btnType}>{btnType}</button></div>
 </div>
 }

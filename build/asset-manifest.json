@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8368d06d.chunk.css",
+    "main.js": "/static/js/main.8c0f73af.chunk.js",
+    "main.js.map": "/static/js/main.8c0f73af.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.b323baf0.js",
+    "runtime~main.js.map": "/static/js/runtime~main.b323baf0.js.map",
+    "static/js/2.0f14d706.chunk.js": "/static/js/2.0f14d706.chunk.js",
+    "static/js/2.0f14d706.chunk.js.map": "/static/js/2.0f14d706.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6f5e41e39eae0b92eb094f250de8d0f8.js": "/precache-manifest.6f5e41e39eae0b92eb094f250de8d0f8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8368d06d.chunk.css.map": "/static/css/main.8368d06d.chunk.css.map",
+    "static/media/Bell.svg": "/static/media/Bell.f60b753a.svg",
+    "static/media/Briefcase.svg": "/static/media/Briefcase.6aacf5fa.svg",
+    "static/media/Dashboard.svg": "/static/media/Dashboard.cf97df20.svg",
+    "static/media/Search.svg": "/static/media/Search.f564880b.svg",
+    "static/media/Star.svg": "/static/media/Star.e9fcf7ab.svg",
+    "static/media/Time.svg": "/static/media/Time.56539b8d.svg",
+    "static/media/User.svg": "/static/media/User.90ffb093.svg"
+  }
+}

@@ -23,7 +23,7 @@ class DataView extends React.Component {
             this.setState({[type]:   event.target.value})
             let value = event.target.value
             if(type==='status')
-                this.setState({data: data.filter(e => e.status == value)})
+                this.setState({data: data.filter(e => e.status === value)})
             else if(type === 'time')
                 if(value === "Least Time Left First")
                     this.setState({data: data.sort((a,b)=> a.time > b.time ? -1 : 1)})
