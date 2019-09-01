@@ -7,7 +7,7 @@ import {NavElement} from '../helper/'
 const Navbar = (props) => {
     let [active, setActive] = React.useState(null)
         const navItems = [
-            {type: 'title', data: 'Logo'}, 
+            {type: 'title', data: 'JobSearch'}, 
             {type: 'img', data: user, onClick: () => setActive(1)},
             {type: 'img', data: bell, badges: 123,onClick: () => setActive(2)}
         ]
