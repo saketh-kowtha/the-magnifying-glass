@@ -22,7 +22,7 @@ const genJobCard = (ele) => {
             <div className='amount'><b>₹{ele.amount}</b></div>
             <div className="time"><img alt='' src={info.icon} /> {ele.time}</div>
             <div className="btn"><button className={btnType}>{btnType}</button></div>
-</div>
+        </div>
 }
 
 export default genJobCard

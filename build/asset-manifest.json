@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d4dc530.chunk.css",
+    "main.css": "/static/css/main.6c595c07.chunk.css",
     "main.js": "/static/js/main.c9f25f36.chunk.js",
     "main.js.map": "/static/js/main.c9f25f36.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.b323baf0.js",
@@ -8,9 +8,9 @@
     "static/js/2.da6e1747.chunk.js": "/static/js/2.da6e1747.chunk.js",
     "static/js/2.da6e1747.chunk.js.map": "/static/js/2.da6e1747.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3d55d7eaaa890d2dc202733654f2bafc.js": "/precache-manifest.3d55d7eaaa890d2dc202733654f2bafc.js",
+    "precache-manifest.f57e96159d042b0d4687be760202d2c2.js": "/precache-manifest.f57e96159d042b0d4687be760202d2c2.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3d4dc530.chunk.css.map": "/static/css/main.3d4dc530.chunk.css.map",
+    "static/css/main.6c595c07.chunk.css.map": "/static/css/main.6c595c07.chunk.css.map",
     "static/media/Bell.svg": "/static/media/Bell.f60b753a.svg",
     "static/media/Briefcase.svg": "/static/media/Briefcase.6aacf5fa.svg",
     "static/media/Dashboard.svg": "/static/media/Dashboard.cf97df20.svg",

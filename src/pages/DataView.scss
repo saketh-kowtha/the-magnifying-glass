@@ -3,7 +3,7 @@
         margin : 0 auto;
         font-size: 32px;
         color: #42526E;
-        @media (min-width: 767px) {
+        @media (min-width: 1280px) {
             margin-bottom: 20px;
             padding-left: 25px;
             width: 90%;
@@ -11,7 +11,7 @@
     }
     .header{
         margin-bottom: 20px;
-        @media (min-width: 767px)  {
+        @media (min-width: 1280px)  {
             width: 90% !important;
             margin: 0 auto;
             margin-bottom: 20px;
@@ -22,7 +22,7 @@
     }
  
     
-    @media (min-width: 767px) {
+    @media (min-width: 1280px) {
         float: left;
         width: calc(100% - 170px);
         padding: 30px;
@@ -30,14 +30,14 @@
         margin-left: 100px;
     }
 
-    @media (min-width: 320px) and (max-width: 767px) {
+    @media (min-width: 320px) and (max-width: 1280px) {
         margin: 100px 20px;
     }
     .link, .displayLabel{
         float: left;
         margin-right: 35px;
         color: rgb(136, 136, 136);
-        @media (min-width: 320px) and (max-width: 767px) {
+        @media (min-width: 320px) and (max-width: 1280px) {
             width: 100%;
         }
     }
